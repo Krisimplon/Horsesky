@@ -1,0 +1,38 @@
+#menu {
+    position: fixed;
+    z-index: 9999;
+    background-color: $primaryColor;
+    border: 1px solid $primaryColor;
+    border-radius: 2px;
+    margin-right: 25px;
+    padding: 0 !important;
+    height: 100% !important;
+    .titleLogiciel {
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: $secondColor !important;
+        background-color: $primaryColor;
+        padding-bottom: 50px;
+        padding-top: 35px;
+    }
+    .nav-link {
+        font-size: 1.2rem;
+        font-weight: bold;
+        border-bottom: 1px solid $secondColor;
+        color: $secondColor;
+        border-radius: 2px;
+        padding: 20px 40px;
+        &:hover {
+            background-color: $secondColor;
+            color: $primaryColor;
+        }
+        .iconMenu {
+            width: 40px;
+            margin: 0 30px 0 10px;
+            &:hover {
+                background-image: "/images/horse-hover.svg";
+            } 
+        }
+    }
+}

@@ -1,0 +1,135 @@
+html, body {
+    background-color: $cream;
+    color: $primaryColor !important;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100%;
+    margin: 0;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.contentBloc {
+    margin-left: 43% !important;
+}
+
+//button
+.btn-taupeFonce {
+    background-color: $primaryColor !important;
+    color: $thirdColor !important;
+    border-color: $primaryColor !important;
+    padding: 10px;
+    font-size: 1rem !important;
+    font-weight: bold !important;
+    border-radius: 4px;
+    &:hover {
+        text-decoration: none;
+        background-color: $secondColor !important;
+        color: $primaryColor !important;
+    }
+}
+
+.btn-register {
+    margin: 20px 10px;
+}
+
+.btn-forget {
+    color: $primaryColor !important;
+}
+
+//blade welcome
+#titleLogiciel {
+    margin-bottom: 5.5rem;
+}
+
+//blade login
+.card {
+ border: 1px solid $primaryColor !important;
+}
+
+.card-header {
+    text-align: center !important;
+    font-size: 1rem !important;
+    font-weight: bold !important;
+    background-color: $primaryColor !important;
+    color: $secondColor !important;
+}
+
+//navbar profil
+.authBlade {
+    font-size: 1rem;
+    font-weight: bold;
+    position: fixed !important;
+    right: 0 !important;
+    background-color: $primaryColor !important;
+    color: $secondColor !important;
+    width: 100%;
+    text-align: right;
+    z-index: 9999;
+    a {
+        color: $secondColor !important;
+    }
+}
+
+//icons
+.iconNav {
+    width: 20px !important;
+    margin: 0 10px 0 25px;
+}
+
+.iconAdd {
+    width: 50px !important;
+    margin: 20px 10px;
+}
+
+.userName {
+    font-size: 1.2rem;
+    margin-right: 50px;
+}
+
+// blade archives
+.archivesCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .cardArchives {
+        border: 2px solid $primaryColor;
+        border-radius: 2px;
+        text-align: center;
+        padding: 20px;
+        width: 50%;
+        margin-bottom: 20px;
+        &:hover {
+            background-color: $secondColor;
+            cursor: pointer;
+        }
+        a {
+            text-decoration: none;
+            .iconArchives {
+                width: 70px !important;
+            }
+        }
+    }
+}

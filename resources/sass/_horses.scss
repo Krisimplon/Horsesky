@@ -1,0 +1,51 @@
+// for input date end horses hidden when page start
+.off {
+    display: none;
+}
+
+// list horses blade
+.bladeListHorses {
+    .listLinkHorse {
+        padding: 8px;
+        background-color: $secondColor;
+        color: $primaryColor;
+        font-size: 1rem;
+        font-weight: bold;
+        margin-bottom: 3px;
+        border-radius: 2px;
+        &:hover {
+            background-color: $otherOneColor;
+            color: $thirdColor;
+            text-decoration: none;
+        }
+    }
+}
+
+// a horse blade
+#bladeHorse {
+    .infosHorse {
+        .dateArchive {
+            font-size: 0.9rem;
+            font-weight: bold;
+            background-color: $primaryColor;
+            color: $secondColor;
+            padding: 15px;
+            border-radius: 4px;
+        }
+        h2 {
+            margin-top: 60px !important;
+        }
+        .specHorse {
+            font-size: 1rem;
+            font-weight: bold;
+            padding: 10px 0;
+        }
+        margin: 50px 0;
+        border: 2px solid $primaryColor;
+        border-radius: 4px;
+        padding: 0 40px 40px 40px;
+    }
+    .iconsPageBottom {
+        text-align: right;
+    }
+}
